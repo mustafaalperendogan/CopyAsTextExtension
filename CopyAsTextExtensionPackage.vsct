@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+
+	<Commands package="guidFileToTextCopierPackage">
+
+		<!-- Gruplar -->
+		<Groups>
+			<!-- Solution Explorer: öğe (dosya) sağ-tık menüsü -->
+			<Group guid="guidFileToTextCopierPackageCmdSet" id="MyItemNodeGroup" priority="0x0600">
+				<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE"/>
+			</Group>
+
+			<!-- Editör: genel code window sağ-tık menüsü -->
+			<Group guid="guidFileToTextCopierPackageCmdSet" id="MyCodeWinGroup" priority="0x0600">
+				<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
+			</Group>
+		</Groups>
+
+		<!-- Butonlar: her bağlam için ayrı bir Button -->
+		<Buttons>
+			<!-- 1) Solution Explorer için -->
+			<Button guid="guidFileToTextCopierPackageCmdSet"
+					id="CopyFileAsText_ItemNode"
+					priority="0x0100"
+					type="Button">
+				<Parent guid="guidFileToTextCopierPackageCmdSet" id="MyItemNodeGroup"/>
+				<Icon guid="guidImages" id="bmpPic1"/>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<ButtonText>Dosyayı .txt olarak kopyala</ButtonText>
+				</Strings>
+			</Button>
+
+			<!-- 2) Editör için -->
+			<Button guid="guidFileToTextCopierPackageCmdSet"
+					id="CopyFileAsText_CodeWin"
+					priority="0x0100"
+					type="Button">
+				<Parent guid="guidFileToTextCopierPackageCmdSet" id="MyCodeWinGroup"/>
+				<Icon guid="guidImages" id="bmpPic1"/>
+				<CommandFlag>DynamicVisibility</CommandFlag>
+				<Strings>
+					<ButtonText>Dosyayı .txt olarak kopyala</ButtonText>
+				</Strings>
+			</Button>
+		</Buttons>
+
+
+		<!-- İkon -->
+		<Bitmaps>
+			<Bitmap guid="guidImages" href="Resources\CopyFileAsTextCommand.png" usedList="bmpPic1"/>
+		</Bitmaps>
+	</Commands>
+
+	<!-- Semboller -->
+	<Symbols>
+		<!-- Package GUID -->
+		<GuidSymbol name="guidFileToTextCopierPackage" value="{b9c8d5e2-3a4f-4b8c-9d1e-2f5a8b7c9e3f}" />
+
+		<!-- Command set GUID -->
+		<GuidSymbol name="guidFileToTextCopierPackageCmdSet" value="{a8b5c3d1-2f4e-4a7b-8c9d-1e3f5a7b9c2d}">
+			<IDSymbol name="MyItemNodeGroup" value="0x1020" />
+			<IDSymbol name="MyCodeWinGroup" value="0x1022" />
+			<!-- İki ayrı komut ID -->
+			<IDSymbol name="CopyFileAsText_ItemNode" value="0x0100" />
+			<IDSymbol name="CopyFileAsText_CodeWin"  value="0x0101" />
+		</GuidSymbol>
+
+		<!-- Images GUID -->
+		<GuidSymbol name="guidImages" value="{d9e8f7c6-5a4b-3c2d-1e9f-8a7b6c5d4e3f}">
+			<IDSymbol name="bmpPic1" value="1"/>
+		</GuidSymbol>
+
+		<!-- Metin editörü kapsam GUID'i -->
+		<GuidSymbol name="guidTextEditor" value="{8B382828-6202-11d1-8870-0000F87579D2}" />
+	</Symbols>
+</CommandTable>
