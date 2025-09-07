@@ -77,8 +77,10 @@ namespace CopyAsTextExtension
 
                 string fileContent = File.ReadAllText(selectedFilePath);
 
-                string fileName = Path.GetFileNameWithoutExtension(selectedFilePath) + ".txt";
+                string fileName = Path.GetFileName(selectedFilePath) + ".txt";
                 string tempPath = Path.Combine(Path.GetTempPath(), "VSExtension_" + Guid.NewGuid().ToString("N"));
+
+                Clipboard.SetText(tempPath);
                 Directory.CreateDirectory(tempPath);
                 string tempFilePath = Path.Combine(tempPath, fileName);
 
@@ -98,6 +100,7 @@ namespace CopyAsTextExtension
                 ShowMessage($"Hata oluştu: {ex.Message}", "Hata");
             }
         }
+
 
         private bool CopyFileToClipboard(string filePath)
         {

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|c:\\users\\tfz\\source\\repos\\copyastextextension\\copyastextextensionpackage.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|solutionrelative:copyastextextensionpackage.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\copyfileastextcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|solutionrelative:copyfileastextcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\copyastextextensionpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|solutionrelative:copyastextextensionpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|c:\\users\\tfz\\source\\repos\\copyastextextension\\copyastextextensionpackage.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|solutionrelative:copyastextextensionpackage.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|solutionrelative:source.extension.vsixmanifest||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\copyastextextensionpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8070433F-E367-4DE0-AAC4-71975918A9D8}|CopyAsTextExtension.csproj|solutionrelative:copyastextextensionpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,18 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "source.extension.vsixmanifest [Design]",
-              "DocumentMoniker": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest",
-              "RelativeDocumentMoniker": "source.extension.vsixmanifest",
-              "ToolTip": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest [Design]",
-              "RelativeToolTip": "source.extension.vsixmanifest [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-09-04T21:10:25.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "source.extension.vsixmanifest",
               "DocumentMoniker": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest",
               "RelativeDocumentMoniker": "source.extension.vsixmanifest",
@@ -61,11 +50,12 @@
               "RelativeToolTip": "source.extension.vsixmanifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-09-04T21:09:20.924Z"
+              "WhenOpened": "2025-09-04T21:09:20.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CopyAsTextExtensionPackage.vsct",
               "DocumentMoniker": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\CopyAsTextExtensionPackage.vsct",
               "RelativeDocumentMoniker": "CopyAsTextExtensionPackage.vsct",
@@ -78,27 +68,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CopyFileAsTextCommand.cs",
               "DocumentMoniker": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\CopyFileAsTextCommand.cs",
               "RelativeDocumentMoniker": "CopyFileAsTextCommand.cs",
               "ToolTip": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\CopyFileAsTextCommand.cs",
               "RelativeToolTip": "CopyFileAsTextCommand.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAYwLwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwFgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T20:59:42.455Z"
+              "WhenOpened": "2025-09-04T20:59:42.455Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CopyAsTextExtensionPackage.cs",
               "DocumentMoniker": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\CopyAsTextExtensionPackage.cs",
               "RelativeDocumentMoniker": "CopyAsTextExtensionPackage.cs",
               "ToolTip": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\CopyAsTextExtensionPackage.cs",
               "RelativeToolTip": "CopyAsTextExtensionPackage.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T20:54:41.427Z"
+              "WhenOpened": "2025-09-04T20:54:41.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "source.extension.vsixmanifest [Design]",
+              "DocumentMoniker": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest",
+              "RelativeDocumentMoniker": "source.extension.vsixmanifest",
+              "ToolTip": "C:\\Users\\TFZ\\source\\repos\\CopyAsTextExtension\\source.extension.vsixmanifest [Design]",
+              "RelativeToolTip": "source.extension.vsixmanifest [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-09-04T21:10:25.996Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
